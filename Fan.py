@@ -3,8 +3,8 @@
 #Abstraction and Encasulation
 
 #Title
-print("033[0;36m*" * 90)
-print("033[1;97mThe Fan Class".center(97))
+print("\033[0;36m*" * 90)
+print("\033[1;97mThe Fan Class".center(97))
 print("\033[0;36m*" * 90)
 
 print("\033[1;32m\nHello! Your programmers name is Alexza Jean.")
@@ -57,5 +57,5 @@ class Fan:
 
     def set_color(self, color):
         self.__color = color
-        
+
       
