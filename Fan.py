@@ -12,7 +12,13 @@ print("\033[1;32m\nShe's from BSCPE 1-4")
 print("-" * 90)
 
 #(The Fan Class) Design a class named Fan to represent a fan. The class contains:
-#Three constants named SLOW, MEDIUM, and FAST with the values 1, 2, 3 to denote the fan speed.
+class Fan:
+
+    #Three constants named SLOW, MEDIUM, and FAST with the values 1, 2, 3 to denote the fan speed.
+    SLOW = 1
+    MEDIUM = 2
+    FAST = 3
+    
 #A private int data field named on that specifies the speed of the fan.
 #A private bool data field named on that specifies whether the fan is on (the default is False).
 #A private float field named radius that specifies the radius of the fan.
