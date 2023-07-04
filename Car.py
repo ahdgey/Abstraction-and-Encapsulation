@@ -12,9 +12,19 @@ print("\033[1;32m\nShe's from BSCPE 1-4")
 print("-" * 90)
 
 #Write a class named Car that has the following data attributes:
-#_ _year_model(for the car's year model)
-#_ _make(for the make of the car)
-#_ _speed(fpr the car's current speed)
+class Car:
+
+    def __init__(self, year_model, make, speed=0):
+
+        #_ _year_model(for the car's year model)
+        self.__year_model = year_model
+    
+        #_ _make(for the make of the car)
+        self.__make = make
+    
+        #_ _speed(fpr the car's current speed)
+        self.__speed = speed
+    
 #The class should also have the following methods:
 #accelerate()
 #The accelerate method should add 5 to the speed data attribute each time it is called.
