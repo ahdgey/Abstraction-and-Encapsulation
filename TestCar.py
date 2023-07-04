@@ -10,5 +10,10 @@ class TestCar:
         for i in range(5):
             car.accelerate()
             print("The car's current speed after it accelerates", i+1, "times is:", car.get_speed())
-            
+
         #Call the brake method five times. 
+        for i in range (5):
+            car.brake()
+            print("The car's current speed after it brakes", i+1, "times is:", car.get_speed())
+
+            
