@@ -26,9 +26,19 @@ class Car:
         self.__speed = speed
     
 #The class should also have the following methods:
-#accelerate()
-#The accelerate method should add 5 to the speed data attribute each time it is called.
-#brake()
-#The brake method should subtract 5 from the speed data attribute each time it is called.
-#get_speed()
-#The get_speed should return the current speed.
+    
+    #accelerate()
+    def accelerate(self):
+    #The accelerate method should add 5 to the speed data attribute each time it is called.
+        self.__speed += 5
+
+    #brake()
+    def brake(self):
+    #The brake method should subtract 5 from the speed data attribute each time it is called.
+        self.__speed -= 5
+
+    #get_speed()
+    def get_speed(self):
+    #The get_speed should return the current speed.
+        return self.__speed
+    
