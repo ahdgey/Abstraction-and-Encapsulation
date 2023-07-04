@@ -41,10 +41,18 @@ class Pet:
     def set_age(self, age):
     #This method assigns a value to the _ _age field.
         self.__age = age
-        
+
     #get_name()
+    def get_name(self):
     #This method returns the value of the _ _name field.
+        return self.__name
+    
     #get_animal_type()
+    def get_animal_type(self):
     #This method returns the value of the _ _animal_type field.
+        return self.__animal_type
+    
     #get_age()
+    def get_age(self):
     #This method returns the value of the _ _age field.
+        return self.__age
