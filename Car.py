@@ -42,3 +42,8 @@ class Car:
     #The get_speed should return the current speed.
         return self.__speed
     
+    def show(self):
+        print("Year Model of the Car:", self.__year_model)
+        print("Make of the car:", self.__make)
+        print("Initial speed of the car:", self.__speed)
+    
