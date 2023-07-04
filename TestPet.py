@@ -18,5 +18,9 @@ class TestPet:
         #Prompts the user to enter the age of the pet
         age = int(input("Kindly type in the age of your pet: "))
         pet.set_age(age)
-        
+
         #Display the output.
+        print("\nPet's name: ", pet.get_name())
+        print("Pet's animal type: ", pet.get_animal_type())
+        print("Pet's age: ", pet.get_age())
+        
