@@ -14,6 +14,9 @@ class TestPet:
         #Prompts the user to enter the type of pet.
         animal_type = str(input("Kindly type in the type of animal of ypur pet: "))
         pet.set_animal_type(animal_type)
-        
+
         #Prompts the user to enter the age of the pet
+        age = int(input("Kindly type in the age of your pet: "))
+        pet.set_age(age)
+        
         #Display the output.
