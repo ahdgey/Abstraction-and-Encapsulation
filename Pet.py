@@ -25,17 +25,26 @@ class Pet:
 
         #_ _age (for the pet's age)
         self.__age = age
-        
+
 #It should also have the following methods:
-#set_name()
-#This method assigns a value to the _ _name field.
-#set_animal_type()
-#This method aasigns a value to the _ _animal_type field.
-#set_age()
-#This method assigns a value to the _ _age field.
-#get_name()
-#This method returns the value of the _ _name field.
-#get_animal_type()
-#This method returns the value of the _ _animal_type field.
-#get_age()
-#This method returns the value of the _ _age field.
+    #set_name()
+    def set_name(self, name):
+    #This method assigns a value to the _ _name field.
+        self.__name = name
+
+    #set_animal_type()
+    def set_animal_type(self, animal_type):
+    #This method aasigns a value to the _ _animal_type field.
+        self.__animal_type = animal_type
+
+    #set_age()
+    def set_age(self, age):
+    #This method assigns a value to the _ _age field.
+        self.__age = age
+        
+    #get_name()
+    #This method returns the value of the _ _name field.
+    #get_animal_type()
+    #This method returns the value of the _ _animal_type field.
+    #get_age()
+    #This method returns the value of the _ _age field.
