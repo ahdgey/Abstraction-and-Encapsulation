@@ -9,11 +9,12 @@ class TestCar:
         #Call the accelerate method five times.
         for i in range(5):
             car.accelerate()
-            print("The car's current speed after it accelerates", i+1, "times is:", car.get_speed())
+            print("\033[0;33mThe car's current speed after it accelerates", i+1, "times is: \033[1;37m", car.get_speed())
 
         #Call the brake method five times. 
         for i in range (5):
             car.brake()
-            print("The car's current speed after it brakes", i+1, "times is:", car.get_speed())
+            print("\033[0;33mThe car's current speed after it brakes", i+1, "times is: \033[1;37m", car.get_speed())
 
-            
+test = TestCar()
+test.Test()   

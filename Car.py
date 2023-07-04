@@ -9,7 +9,7 @@ print("\033[0;36m*" * 90)
 
 print("\033[1;32m\nHello! Your programmers name is Alexza Jean.")
 print("\033[1;32m\nShe's from BSCPE 1-4")
-print("-" * 90)
+print("\033[1;32m-" * 90)
 
 #Write a class named Car that has the following data attributes:
 class Car:
@@ -43,7 +43,7 @@ class Car:
         return self.__speed
     
     def show(self):
-        print("Year Model of the Car:", self.__year_model)
-        print("Make of the car:", self.__make)
-        print("Initial speed of the car:", self.__speed)
-    
+        print("\033[0;31mYear Model of the Car: \033[1;37m", self.__year_model)
+        print("\033[0;31mMake of the car: \033[1;37m", self.__make)
+        print("\033[0;31mInitial speed of the car: \033[1;37m", self.__speed)
+        print("\033[0;31m~" * 90)
