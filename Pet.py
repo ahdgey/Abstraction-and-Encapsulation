@@ -12,10 +12,20 @@ print("\033[1;32m\nShe's from BSCPE 1-4")
 print("\033[1;32m-" * 90)
 
 #Write a class named Pet, which should have the following data attributes:
-#The Pet class should have an _ _ init_ _ method that creates these attributes.
-#_ _name (for the names of pet)
-#_ _animal_type (for the type of animal that a pet is. Example values are 'Dog', 'Cat', and 'Bird')
-#_ _age (for the pet's age)
+class Pet:
+
+    #The Pet class should have an _ _ init_ _ method that creates these attributes.
+    def __init__(self, name="", animal_type="", age=0):
+
+        #_ _name (for the names of pet)
+        self.__name = name
+
+        #_ _animal_type (for the type of animal that a pet is. Example values are 'Dog', 'Cat', and 'Bird')
+        self.__animal_type = animal_type
+
+        #_ _age (for the pet's age)
+        self.__age = age
+        
 #It should also have the following methods:
 #set_name()
 #This method assigns a value to the _ _name field.
